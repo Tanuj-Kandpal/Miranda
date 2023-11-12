@@ -109,14 +109,15 @@ li {
 .miranda-text h2 {
   background-color: #1c1b19;
   color: #c3bcb2;
-  font-size: 420px;
+  font-size: 550px;
   margin-left: 20px;
   width: 97%;
   /* padding: 0px 40px 0px 40px; */
   text-align: center;
-  line-height: 350px;
+  letter-spacing: -18px;
+  line-height: 440px;
   font-weight: 500;
-  font-family: var(--secondaryfont);
+  font-family: var(--primaryfont);
 }
 .miranda-text {
   margin-top: 20px;
@@ -124,7 +125,8 @@ li {
 
 .img-sec-1 {
   display: flex;
-  margin: 40px 0 40px 0;
+  margin: 0 0 40px 0;
+  padding-top: 30px;
 }
 .img-sec-1-left {
   width: 30%;
@@ -193,11 +195,44 @@ li {
   text-align: justify;
 }
 .main {
-  background-color: black;
-}
-.page1 {
   background-color: #c4bcb3;
 }
 .img-sec-1 {
   background-color: #c4bcb3;
+}
+.sec-2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  gap: 25px;
+  align-content: center;
+  align-items: center;
+}
+.website-text {
+  display: flex;
+  font-family: var(--primaryfont);
+  font-size: 25vw;
+  padding: 20px 10px 20px 10px;
+  line-height: 20vw;
+  width: 100%;
+  text-align: justify;
+  font-stretch: expanded;
+}
+.text-sec-2 {
+  margin-left: 30px;
+  color: #c4bcb2;
+  width: 70%;
+  height: 100%;
+  background-color: #1c1b19;
+}
+.img-sec-2 img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+}
+.img-sec-2 {
+  /* height: 5vh; */
+  display: flex;
+  align-items: center;
 }
